@@ -1,0 +1,19 @@
+
+.body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+h1 {
+  color: purple;
+}
+a {
+  font-size: 20px;
+  color: purple;
+  text-decoration: none;
+}
+.heading-2 {
+  color: red;
+}
+ul > li {
+  color: blue
+}
