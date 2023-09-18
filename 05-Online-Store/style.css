@@ -1,0 +1,43 @@
+.main-body-container {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  height: 100vh;
+  align-content: center;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin: -8px;
+}
+
+.banner h1 {
+  margin: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(169, 242, 242);
+}
+
+.banner p {
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.btn {
+  margin-left: 25px;
+  padding: 12px !important;
+}
+
+.cards {
+  text-align: center;
+  margin: 40px auto;
+  width: 55%;
+}
+.cards h1 {
+  margin-bottom: 20px;
+}
