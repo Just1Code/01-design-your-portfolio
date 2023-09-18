@@ -1,0 +1,40 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: rgb(234, 234, 234);
+}
+h1 {
+  color: purple;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.heading-2 {
+  color: red;
+  padding-left: 20px;
+}
+ul > li {
+  color: blue
+}
+.card-1,
+.social-links {
+  background-color: white;
+  width: 60%;
+  margin: 50px auto;
+  border-radius: 22px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+}
+#button {
+  background-color: red;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+}
+#button:hover {
+  border-radius: 4px;
+  box-shadow: rgba(157, 12, 12, 0.35) 0px 5px 15px;
+  transition-duration: 0.5s;
+}
