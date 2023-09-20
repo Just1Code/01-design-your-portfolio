@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;500;700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+  margin: -8px;
+  /* overflow-x: hidden; */
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80");
+}
+
+.banner h1 {
+  margin: 0 0 0 40px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  margin: 20px 0 0 40px;
+  padding-bottom: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.button {
+  margin: 40px;
+  color: purple;
+  font-size: bolder;
+  text-decoration: none;
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.button:hover {
+  color: #ff9000;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+.container-info {
+  margin: 100px;
+  text-align: center;
+}
+.container-info h1 {
+  padding: 30px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+.card img {
+  width: 150px;
+}
+.card p {
+  opacity: .5;
+}
+
+.footer {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: -8px;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
