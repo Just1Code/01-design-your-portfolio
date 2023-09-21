@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  margin-bottom: 100px;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  background-color: white;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.15);
+}
+.navbar img {
+  width: 90px;
+}
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+}
+.tabs {
+  margin-bottom: 16px;
+  display: flex;
+}
+.tab.active {
+  opacity: 1;
+  border-bottom: 3px solid #555555;
+}
+.tab {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 3px;
+  margin-left: 30px;
+  opacity: 0.4;
+  padding: 8px;
+  border-bottom: 3px solid transparent;
+  transition: ease .3s;
+}
+.tab:hover {
+  opacity: 0.8;
+}
+.notification {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 8px 16px;
+  border-bottom: 1px solid white;
+}
+.notification p {
+  margin: 0;
+  line-height: 1.4;
+}
+.notification small {
+  color: #999999;
+  font-weight: bold;
+}
+.avatar-image {
+  width: 55px;
+  border-radius: 50%;
+}
+.notification .notification-content {
+  flex-grow: 1;
+  padding: 0 24px;
+}
+.notification .notification-actions {
+  opacity: 0;
+  display: flex;
+  transition: ease .3s;
+}
+.notification .notification-actions a {
+  color: #999999;
+  margin-left: 16px;
+  font-size: 14px;
+  padding-right: 5px;
+}
+a {
+  text-decoration: none;
+  color: #268BD2;
+}
+.fa,
+.fas {
+  font-weight: 900;
+}
+.notification:hover .notification-actions {
+  opacity: 1;
+}
